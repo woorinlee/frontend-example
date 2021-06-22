@@ -1,0 +1,8 @@
+div {
+    color: red; /* 글자 색상 빨강 */
+    font-size: 20px; /* 글자 크기 20px */
+    width: 300px; /* 가로 너비 300px */
+    margin: 20px; /* 바깥 여백 20px */
+    padding: 10px 20px; /* 안쪽 여백 위아래 10px, 좌우 20px */
+    position: absolute; /* 위치는 부모 요소 기준 */
+}
