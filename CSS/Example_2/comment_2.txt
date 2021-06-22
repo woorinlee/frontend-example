@@ -1,0 +1,2 @@
+[example_2-1.html] 태그에 직접 작성(인라인) 예제
+[example_2-2.html] HTML에 CSS 포함(내장) 예제
