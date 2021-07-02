@@ -1,0 +1,32 @@
+/* font-size : 요소의 폰트 크기 */
+/* width : 요소의 가로 너비 */
+/* height : 요소의 세로 너비 */
+/* background : 요소의 배경 색상(단축속성) */
+/* margin : 요소의 바깥 여백*/
+.title {
+    font-size: 24px;
+    width: 300px;
+    height: 200px;
+    background-color: darkgray;
+    margin: 10px;
+}
+/* padding : 요소의 내부 여백 */
+.sub {
+    color: red;
+    padding: 20px;
+}
+/*
+.sub-text-1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sub-text-2 {
+    color: green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+*/
