@@ -1,0 +1,2 @@
+[example_12-1.html] class, id 예제 : class(.~)는 중복 가능, id(#~)는 중복 불가능
+[example_12-2.html] style, title 예제

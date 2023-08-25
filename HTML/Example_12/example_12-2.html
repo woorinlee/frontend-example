@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>양식</title>
+</head>
+<body>
+    <h1 style="color: lightcoral; background: lightgray;">제목 1</h1>
+
+    <h2 title="이 부분은 제목 2 입니다.">제목 2</h2>
+    <a href="https://google.com" title="이 부분을 누르면 google로 이동합니다.">Google</a>
+    <div title="이 부분은 div 태그입니다.">div 태그</div>
+
+    <p lang="en">This paragraph is English</p>
+    <p lang="ko">이 단락은 한글입니다.</p>
+    <p lang="fr">Ce paragraphe est défini en français.</p>
+
+    <div id="me" data-my-name="Woorin" data-my-age="25">Woorin</div>
+    <script>
+        const me = document.getElementById('me');
+        console.log(me.dataset.myName);
+        console.log(me.dataset.myAge); 
+    </script>
+</body>
+</html>

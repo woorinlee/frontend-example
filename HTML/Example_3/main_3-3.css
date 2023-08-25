@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+span {
+    background: tomato;
+    width: 120px;
+    height: 80px;
+    /* display를 통해 인라인 요소를 강제로 블록 요소로 변경 */
+    display: block;
+}
+/* 블록 요소를 강제로 인라인 요소로 변경도 가능 */
+/*div {
+    display: inline;
+}*/ 
+/* display의 기본값 */
+/*
+div {display: block;}
+h1 {display: block;}
+p {display: block;}
+span {display: inline;}
+*/

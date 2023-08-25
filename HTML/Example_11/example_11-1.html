@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>표 콘텐츠</title>
+    <link rel="stylesheet" href="./main_11-1.css">
+</head>
+<body>
+    <table>
+        <caption>데이터 타입과 값</caption>
+        <tr>
+            <th colspan="2" id="th-data-1">데이터</th>
+        </tr>
+        <tr>
+            <th abbr="Type" scope="col" headers="th-data-1">타입</th>
+            <th abbr="Value" scope="col" headers="th-data-1">값</th>
+        </tr>
+        <tr>
+            <td>알파벳</td>
+            <td>a</td>
+        </tr>
+        <tr>
+            <td>숫자</td>
+            <td>7</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>데이터 타입과 값</caption>
+        <tr>
+            <th rowspan="2" id="th-data-2">데이터</th>
+            <th headers="th-data-2" id="th-type">타입</th>
+            <td headers="th-type">알파벳</td>
+            <td headers="th-type">숫자</td>
+        </tr>
+        <tr>
+            <th headers="th-data-2" id="th-value">값</th>
+            <td headers="th-value">a</td>
+            <td headers="th-value">7</td>
+        </tr>
+    </table>
+</body>
+</html>

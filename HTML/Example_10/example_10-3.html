@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<!--최소 가로너비가 350px 이상일 때 최적화된 출력 크기로 250px 사용-->
+<body>
+    <img
+    srcset="images/image_1.png 150w,
+            images/image_2.png 250w, 
+            images/image_3.png 350w"
+    sizes="(min-width: 350px) 250px"
+    src="images/image_0.png"
+    alt="Mozyo">
+</body>
+</html>
